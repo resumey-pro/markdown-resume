@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700&display=swap");
+
+/* Typography */
+body {
+  font-family: "Epilogue";
+  font-size: 16px;
+}
+#logo {
+  font-family: "Space Grotesk";
+  font-size: 16px;
+}
