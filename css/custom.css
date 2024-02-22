@@ -5,8 +5,40 @@
 body {
   font-family: "Epilogue";
   font-size: 16px;
+  color: #555;
+  line-height: 1.25;
+}
+h3 {
+  font-family: "Space Grotesk", sans-serif, Arial, Helvetica;
+}
+h4 {
+  font-family: "Space Grotesk", sans-serif, Arial, Helvetica;
+  font-size: 18px;
+  color: #111;
 }
 #logo {
   font-family: "Space Grotesk";
   font-size: 16px;
+}
+#banner h1 {
+  font-family: "Space Grotesk", sans-serif, Arial, Helvetica;
+  font-size: 64px;
+  line-height: 64px;
+  font-weight: 800;
+  color: #111;
+}
+#banner h2 {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #555;
+}
+.section-title {
+  font-family: "Space Grotesk", sans-serif, Arial, Helvetica;
+  font-size: 36px;
+  font-weight: 700;
+  color: #111;
+}
+.section-subtitle {
+  color: #9c9c9c;
 }
