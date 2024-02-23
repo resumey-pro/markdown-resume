@@ -19,6 +19,15 @@ h4 {
 #logo {
   font-family: "Space Grotesk";
   font-size: 16px;
+  color: #111;
+}
+#logo::before {
+  content: "#";
+  color: #ec5b37;
+  font-weight: bold;
+}
+#banner {
+  text-align: center;
 }
 #banner h1 {
   font-family: "Space Grotesk", sans-serif, Arial, Helvetica;
@@ -26,6 +35,16 @@ h4 {
   line-height: 64px;
   font-weight: 800;
   color: #111;
+}
+#banner h1 span {
+  color: #ec5b37;
+}
+#banner h1 span::before,
+#banner h1 span::after {
+  content: "**";
+  color: #ccc;
+  font-weight: normal;
+  font-size: 48px;
 }
 #banner h2 {
   font-size: 18px;
