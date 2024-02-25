@@ -75,11 +75,19 @@ h4 {
   background-repeat: no-repeat;
   background-size: 32px;
   background-position: 8px 8px;
+  font-size: 16px;
   line-height: 48px;
   padding-left: 48px;
   padding-right: 8px;
   transition: all 0.2s;
   cursor: pointer;
+}
+.cta-button.small {
+  background-size: 24px;
+  background-position: 4px 4px;
+  line-height: 32px;
+  padding-left: 32px;
+  padding-right: 4px;
 }
 
 .icon-block h4 {
@@ -100,4 +108,8 @@ h4 {
 
 #wrapper {
   padding: 0px;
+}
+
+#landing-footer {
+  padding: 16px;
 }
