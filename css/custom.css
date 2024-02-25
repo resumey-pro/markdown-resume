@@ -52,6 +52,9 @@ h4 {
   font-weight: 400;
   color: #555;
 }
+#banner .cta-button {
+  margin-top: 10px;
+}
 .section-title {
   font-family: "Space Grotesk", sans-serif, Arial, Helvetica;
   font-size: 36px;
@@ -93,4 +96,8 @@ h4 {
 
 .testimonial img {
   max-height: 80px;
+}
+
+#wrapper {
+  padding: 0px;
 }
