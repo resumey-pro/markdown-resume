@@ -90,3 +90,7 @@ h4 {
   left: -16px;
   line-height: 26px;
 }
+
+.testimonial img {
+  max-height: 80px;
+}
