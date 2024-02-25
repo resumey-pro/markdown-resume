@@ -78,3 +78,15 @@ h4 {
   transition: all 0.2s;
   cursor: pointer;
 }
+
+.icon-block h4 {
+  position: relative;
+}
+.icon-block h4::before {
+  content: "*";
+  color: #ec5b37;
+  position: absolute;
+  width: 16px;
+  left: -16px;
+  line-height: 26px;
+}
