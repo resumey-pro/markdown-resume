@@ -464,18 +464,22 @@
     <script src="js/lightbox.min.js"></script>
     <script src="js/site.js"></script>
     <!-- Google tag (gtag.js) -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-SE0KKDQW2B"
-    ></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
+      function loadAnalytics() {
+        var script = document.createElement("script");
+        script.src = "https://www.googletagmanager.com/gtag/js?id=G-SE0KKDQW2B";
+        script.async = true;
+        document.head.appendChild(script);
+        
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-SE0KKDQW2B');
       }
-      gtag("js", new Date());
-
-      gtag("config", "G-SE0KKDQW2B");
+    
+      document.addEventListener("DOMContentLoaded", function() {
+        setTimeout(loadAnalytics, 3000); // Loads analytics after 3s delay
+      });
     </script>
   </body>
 
