@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap"); */
+/* @import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700&display=swap"); */
 
 /* Typography */
 body {
-  font-family: "Epilogue";
+  font-family: "Epilogue", sans-serif, Arial, Helvetica;
   font-size: 16px;
   color: #555;
   line-height: 1.25;
@@ -17,7 +17,7 @@ h4 {
   color: #111;
 }
 #logo {
-  font-family: "Space Grotesk";
+  font-family: "Space Grotesk", sans-serif, Arial, Helvetica;
   font-size: 16px;
   color: #111;
 }

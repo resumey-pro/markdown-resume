@@ -156,8 +156,6 @@ figure {
 }
 
 #wrapper {
-  margin: 0 15px;
-  padding: 15px 0;
   position: relative;
 }
 
@@ -1589,29 +1587,6 @@ blockquote {
   opacity: 1;
 }
 
-/*Preloader*/
-
-#preloader {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #fff; /* change if the mask should have another color then white */
-  z-index: 99999; /* makes sure it stays on top */
-}
-
-#status {
-  width: 110px;
-  height: 110px;
-  position: absolute;
-  left: 50%; /* centers the loading animation horizontally one the screen */
-  top: 50%; /* centers the loading animation vertically one the screen */
-  background-position: center;
-  margin: -55px 0 0 -55px; /* is width and height divided by two */
-  text-align: center;
-}
-
 /*!
  * Load Awesome v1.1.0 (http://github.danielcardoso.net/load-awesome/)
  * Copyright 2015 Daniel Cardoso <@DanielCardoso>
@@ -2137,11 +2112,6 @@ blockquote {
 /* Landscape mobile & down
 ===============================*/
 @media (max-width: 480px) {
-  #wrapper {
-    margin: 0;
-    padding: 0;
-  }
-
   .page-border,
   #scrollUp,
   #scrollUp:before {
@@ -2265,11 +2235,6 @@ blockquote {
 /* Mobile to Tablet Portrait
 ===============================*/
 @media (min-width: 480px) and (max-width: 767px) {
-  #wrapper {
-    margin: 0;
-    padding: 0;
-  }
-
   .page-border,
   #scrollUp,
   #scrollUp:before {
@@ -2362,11 +2327,6 @@ blockquote {
 /* Landscape Tablet to Desktop
 ===============================*/
 @media (min-width: 768px) and (max-width: 1024px) {
-  #wrapper {
-    margin: 0;
-    padding: 0;
-  }
-
   .page-border {
     display: none;
   }
